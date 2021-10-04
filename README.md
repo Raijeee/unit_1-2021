@@ -36,7 +36,7 @@ The goal of the game will be:
 
 ## System Diagram
 
-[]!SystemDiagram.jpg
+![]SystemDiagram.jpg
 
 ## Flow Diagrams
 
