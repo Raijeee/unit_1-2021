@@ -50,6 +50,6 @@ The goal of the game will be:
 ## Record of Tasks
 | Task No | Planned Action | Planned Outcome | Time estimate | Target completion date | Criterion |
 |---------|----------------|-----------------|---------------|------------------------|-----------|
-|         |                |                 |               |                        |           |
-|         |                |                 |               |                        |           |
-|         |                |                 |               |                        |           |
+|   1      |                |                 |               |                        |           |
+|      2   |                |                 |               |                        |           |
+|      3   |                |                 |               |                        |           |
