@@ -32,11 +32,11 @@ The goal of the game will be:
   1. The game has to be entirely text-based
   2. The game must record the time played
   3. The game must record the player name and score
-  4. The user can make more than 10 decisions/commands in the game
-  5. Game must have sound effects
-  6. More than 3 outcomes/endings in the game
-  7. User feedback/survey after game
-  8. Must have check points and auto saves
+  4. The user can make more than 10 decisions/inputs in the game
+  5. Game must have more than 3 outcomes/endings
+  6. Must consist a basic start menu
+  7. Must have check points and auto saves
+  8. Include sound effects 
 
 
 # Criteria B: Design
