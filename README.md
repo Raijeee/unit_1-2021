@@ -50,6 +50,6 @@ The goal of the game will be:
 ## Record of Tasks
 | Task No | Planned Action | Planned Outcome | Time estimate | Target completion date | Criterion |
 |---------|----------------|-----------------|---------------|------------------------|-----------|
-|   1      |Plan out the game, what kind of endings do I want? What kind of decisions could the user make? How often shuold check points be in the game?       |                        |           |
+|   1      |.              |                        |           |
 |      2   |                |                 |               |                        |           |
 |      3   |                |                 |               |                        |           |
