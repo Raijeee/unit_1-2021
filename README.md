@@ -38,8 +38,6 @@ The goal of the game will be:
   4. The user can make more than 10 decisions/inputs in the game
   5. Game must have more than 3 outcomes/endings
   6. Must consist a basic start menu
-  7. Must have check points and auto saves
-  8. Include sound effects 
 
 
 # Criteria B: Design
