@@ -11,10 +11,10 @@ The owner of the local game shop is an enthusiast of classic computer games. He 
 2. The game must record the time played.
 3. The game must record the player name and score.
 
+Apart for this requirements, the owner is open to any type of game, topic or genre.
+
 ## Personal Problem definition: 
 With the rise of the digital age and GUI based games with fancy 3D graphics and features, all retro games were lost in that process. Since I was young, I have always been a fan of retro games, playing the classic Nintendo 64 and especially a lot of text-based games. These text-based games, although sounds unengaging and boring, has a special place in my heart and I always look back at those good old days where I always struggled to read and finish the game. This nostalgia always caught up to me, and made me question if I was able to create something similar to what I grew up as, and experienced those good old days. 
-
-Apart for this requirements, the owner is open to any type of game, topic or genre.
 
 ## Proposed Solution
 
