@@ -44,7 +44,7 @@ The goal of the game will be:
 
 ## System Diagram
 
-![](SystemDiagram.jpg)
+![](SystemDiagram1.jpg)
 Fig1.
 This shows the system diagram of the game. My system will be based on MAC OS and on a system with a core i7 with 16GB of RAM and 4GB of VRAM. The game will be created on python 3.x and will have 
 # Flow Diagrams
