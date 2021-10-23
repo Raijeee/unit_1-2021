@@ -46,7 +46,7 @@ The goal of the game will be:
 
 ![](SystemDiagram.jpg)
 
-## Flow Diagrams
+# Flow Diagrams
 
 ### Yes or no option def function
 ![](1.1.jpg)
