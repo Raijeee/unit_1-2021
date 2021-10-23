@@ -1,6 +1,5 @@
 # Unit 1: A classic game 
-![](game.gif)
-![](PrisonIcon.jpg)
+![](game.gif) ![](PrisonIcon.jpg)
 
 # Criteria A: Planning
 
