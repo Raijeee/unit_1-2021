@@ -19,6 +19,7 @@ With the rise of the digital age and GUI based games with fancy 3D graphics and 
 ## Proposed Solution
 
 ![](PrisonIcon.jpg)
+![](PythonIcon.jpg)
 
 ### Design Statement
 I will design and create a text-based game for a client who is the local game shop. The category of the game will be a prison break game and will be created in python 3.x. The game will take around 3 weeks to finish the project and will be evaluated according to the criteria. 
