@@ -86,4 +86,256 @@ This shows the system diagram of the game. My system will be based on MAC OS and
 
 ## First Minimum Viable Product (MVP 1)
 
-![](Reiji_MVP1.mov)
+```.py
+import sys
+import time
+import os
+start_time = time.time()
+score=0
+#All functions:
+#dp = Dramatic Print
+def dp(str):
+    for char in str:
+        sys.stdout.write(char)
+        sys.stdout.flush()
+        time.sleep(0.01)
+
+def dp1(str):
+    for char in str:
+        sys.stdout.write(char)
+        sys.stdout.flush()
+        time.sleep(0.03)
+
+def dp2(str):
+    for char in str:
+        sys.stdout.write(char)
+        sys.stdout.flush()
+        time.sleep(0.07)
+
+def dp3(str):
+    for char in str:
+        sys.stdout.write(char)
+        sys.stdout.flush()
+        time.sleep(0.25)
+
+#Clear Console
+def clearConsole():
+    os.system("clear")
+
+#Cut Phrase
+def cut():
+    print("\n-----------------------------------------------------------------------------------------------------------------------------------")
+
+def c_option(prompt):
+    while True:
+        try:
+            value = int(input(prompt))
+        except ValueError:
+            print("Please Enter a Value")
+            continue
+        if value > 4 or value<=0:
+            print("Sorry, Please Input 1,2, or 3. ")
+            continue
+        else:
+            break
+    return value
+
+def yn_option(prompt):
+    while True:
+        ans = input(prompt.upper())
+        if "Y" or "N" in ans:
+            break
+        else:
+            print("Sorry, Please Input Y or N. ")
+            continue
+    return ans
+
+def end():
+    print(f"Name: {name}")
+    print(f"Play time = {round(time.time() - start_time)} seconds")
+    print(f"Score: {score}")
+
+
+#Start of game
+clearConsole()
+print("Would you like to skip the prologue? (Don't skip if it's your first time) Y/N\n")
+skip=input("> ")
+clearConsole()
+
+#Prologue of game
+if skip.upper() =="N":
+
+    dp3("PROLOGUE.....\n\n")
+    dp2("October 24th, 2021\n")
+    time.sleep (1)
+    dp2("Location:")
+    dp1(" Unknown")
+    cut()
+    time.sleep (2)
+    clearConsole()
+
+    dp2("Unknown voice:")
+    time.sleep(1)
+    dp1(" Hey, Hey yo! Wake up buddy!\n")
+    time.sleep(0.5)
+    print("You hear someone shouting at you. \n")
+    time.sleep (2)
+    dp1("You recall what happened in the past hour and you remember that you were running away from Mrs.Earwood and had tripped on a banana. \n \n")
+    time.sleep (1)
+    dp1("You are utterly confused on what's going on")
+    for i in range (5):
+        time.sleep (0.5)
+        dp1(".")
+    cut()
+    time.sleep (2)
+    clearConsole()
+
+    dp2("Unknown voice:")
+    time.sleep(0.5)
+    dp1(" Yo! Yo, buddy c'mon wake up new guy. \n")
+    time.sleep(0.5)
+    print("You jump out of bed and observe your surroundings.\n")
+    time.sleep(1)
+    dp1("You see a big man standing right next to your bed.\n")
+    time.sleep(1)
+    dp1("It seems like you have somehow landed in prison.\n")
+    cut()
+    time.sleep(2)
+    clearConsole()
+
+    dp2("Big Man: ")
+    time.sleep(0.5)
+    dp1("Yo! New guy! What's your name, mate?\n")
+    name = input("You: > ")
+    dp1(f"Big man: {name}")
+    for i in range (3):
+        dp1(".")
+        time.sleep(1)
+    dp1(" Well nice to meet you. ")
+    time.sleep(1)
+    dp1("My name's Koshiba and a sincere welcome to ")
+    dp3("ISAK PRISON.")
+    cut()
+    time.sleep(2)
+    clearConsole()
+
+    dp1("Chapter 1: ")
+    dp2("Start of a new journey...\n\n")
+    time.sleep(2)
+    dp1("1 week later")
+    for i in range (5):
+        dp1(".")
+        time.sleep(1)
+    time.sleep(1)
+    clearConsole()
+
+    dp1("You're already tired of this place, and sick of the repetitive nature of ISAK Prison.\n\n")
+    time.sleep(1)
+    dp1("And so you decide to escape from this filthy prison.")
+    time.sleep(2)
+    skip="N"
+    clearConsole()
+    #Finish of prologue
+else:
+    dp1("What is your name?\n\n")
+    name = input("> ")
+
+#Start of game
+clearConsole()
+time.sleep(0.5)
+
+done1=False
+glass=False
+while done1==False:
+    clearConsole()
+    dp1("You look around your surroundings and find a few items...")
+    if glass==True:
+        dp1("\n\nBut now you have a shard of glass in your hand")
+    dp("\n\nPress 1 to view the window \n\n")
+    dp("Press 2 to view the vent \n\n")
+    dp("Press 3 to view the mirror\n\n")
+    dec1 = c_option("> ")
+    clearConsole()
+
+    if dec1 == 1:
+        dp1("You observe the windows length and width\n\n")
+        for i in range(5):
+            time.sleep(0.5)
+            dp1(".")
+        dp1("\n\nIt look's like you will be able to fit through the window.\n\n")
+        dp("Press 1 to squeeze through the small window \n\n")
+        dp("Press 2 to observe the vent instead \n\n")
+        dp("Press 3 to observe the mirror instead \n\n")
+        dec11 = c_option("> ")
+        if dec11 == 1:
+            clearConsole()
+            dp1("You squeeze through the window and see sunlight, you finally squeeze yourself outside the window, until you realize...\n\n")
+            time.sleep(2)
+            dp1("Your prison is on the 20th floor.\n\n")
+            time.sleep(2)
+            dp1("You free fall straight down to the ground and your life flashes right infront of you.\n\n")
+            for i in range(5):
+                time.sleep(0.5)
+                dp1(".")
+            dp1(f"\n\n{name}> ")
+            time.sleep(0.5)
+            dp2("I'm an actual idiot.\n")
+            time.sleep(1)
+            dp("Those were your last words")
+            cut()
+            time.sleep(4)
+            clearConsole()
+
+            dp3("Ending 1:")
+            time.sleep(0.5)
+            dp2(" Think before you act...\n\n")
+            end()
+            cut()
+            time.sleep(5)
+            quit()
+        if dec11 == 2 or 3:
+            clearConsole()
+            dp1("You think again about your decision and realize you're prison cell is located on the 20th floor.\n\n")
+            time.sleep(0.5)
+            dp1("Jumping out would've been a bad idea.\n\n")
+            time.sleep(2)
+            if dec11 == 2:
+                dec1 = 2
+                clearConsole()
+            if dec11 == 3:
+                dec1 = 3
+                clearConsole()
+    if dec1 == 3:
+        dp1("You observe the glass and decide to break it.\n\n")
+        time.sleep(1)
+        dp1(f"{name}> The glass shards might come in useful...\n\n")
+        time.sleep(1)
+        clearConsole()
+        glass = True
+    if dec1 == 2:
+        if glass == True:
+            dp1("You observe the vents, and it's completely screwed on. But now you have a piece of glass in your hand\n\n")
+            dp1("You use the glass shards to unscrew the vents\n\n")
+            for i in range(5):
+                time.sleep(0.5)
+                dp1(".")
+            dp1("\n\nThe vent opens\n\n")
+            time.sleep(0.5)
+            dp1("You grab the side of the wall and push yourself up into the vent")
+            time.sleep(3)
+            done1=True
+            clearConsole()
+        else:
+            dp1("You observe the vents, and it's completely screwed on. Maybe you can use something to unscrew it")
+            for i in range(3):
+                time.sleep(0.5)
+                dp1(".")
+            time.sleep(3)
+
+dp3("Chapter 2: Inside the vents...")
+
+print("https://github.com/Raijeee/unit_1-2021")
+
+time.sleep(3)
+clearConsole()
+```
