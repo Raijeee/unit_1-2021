@@ -16,6 +16,8 @@ Apart for this requirements, the owner is open to any type of game, topic or gen
 ## Personal Problem definition: 
 With the rise of the digital age and GUI based games with fancy 3D graphics and features, all retro games were lost in that process. Since I was young, I have always been a fan of retro games, playing the classic Nintendo 64 and especially a lot of text-based games. These text-based games, although sounds unengaging and boring, has a special place in my heart and I always look back at those good old days where I always struggled to read and finish the game. This nostalgia always caught up to me, and made me question if I was able to create something similar to what I grew up as, and experienced those good old days. 
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Proposed Solution
 
 ![](PrisonIcon.jpg)
@@ -42,6 +44,7 @@ The goal of the game will be:
   5. Game must have more than 3 outcomes/endings
   6. Must consist a basic start menu
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Criteria B: Design
 
@@ -58,6 +61,8 @@ This shows the system diagram of the game. My system will be based on MAC OS and
 
 ### Basic diagram of the story (chapter 1) 
 ![](1.2.jpg)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Record of Tasks
 | Task NO | Planned Action                                                                                                                                                    | Planned Outcome                                                                                                                                                                  | Time estimate | Target completion date | Criterion |
