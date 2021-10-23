@@ -84,7 +84,12 @@ This shows the system diagram of the game. My system will be based on MAC OS and
 | 18      | Create flow diagram for any of the functions or code                                                                                                              | A illustration of my flow diagram done and uploaded on Github                                                                                                                    | 1 Day         | October 25th           | B         |
 
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## First Minimum Viable Product (MVP 1)
+
+A Minimum Viable Product is something like a first demo of the game. In this case, my first ending was my first MVP of the game and consisted of a few basic functions and a basic time and name keeping feature. A video was also made so the G12's would evalute my progress (still awaiting feedback from them). 
+
 
 ```.py
 import sys
