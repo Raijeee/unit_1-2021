@@ -82,3 +82,8 @@ This shows the system diagram of the game. My system will be based on MAC OS and
 | 16      | Create all inputs and story lines (type out all dialoge and actions)                                                                                              | All inputs correct and story with no typos and logical sense                                                                                                                     | 3 Days        | October 23rd           | C         |
 | 17      | Check all inputs, clean up any bugs if any                                                                                                                        | All inputs are smooth and has no bugs                                                                                                                                            | 1 Day         | October 24th           |           |
 | 18      | Create flow diagram for any of the functions or code                                                                                                              | A illustration of my flow diagram done and uploaded on Github                                                                                                                    | 1 Day         | October 25th           | B         |
+
+
+## First Minimum Viable Product (MVP 1)
+
+![](Reiji_MVP1.mov)
