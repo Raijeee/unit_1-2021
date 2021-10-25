@@ -63,6 +63,14 @@ This shows the system diagram of the game. My system will be based on MAC OS and
 ![](1.2.jpg)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Test Plan
+
+| Description                                             | Type         | Inputs                                                                                                                                               | Expected Output                                                                                                                                           |
+|---------------------------------------------------------|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Testing the dramatic print function (dp, dp1, dp2, dp3) | Unit Testing | 1. Run the program 2. Enter "Hello World" in function                                                                                                | The python terminal should print "Hello world" and have a typing affect                                                                                   |
+| Testing the Yes or No option function (yn_option)       | Unit Testing | 1. Run the program 2. Enter "Y" in function 3. Enter "y" in function 4. Enter "N" in function 5. Enter "n" in function 6. Enter "09j@we" in function | From steps 2 to 5, the python terminal should print whatever the user inputed In step 6, the python terminal should print "Sorry, Please Input Y or N. ". |
+|                                                         |              |                                                                                                                                                      |                                                                                                                                                           |
+
 
 ## Record of Tasks
 | Task NO | Planned Action                                                                                                                                                    | Planned Outcome                                                                                                                                                                  | Time estimate | Target completion date | Criterion |
