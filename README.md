@@ -418,16 +418,16 @@ Hi Reiji:
 
 Beta testing of your MVP:
 
-### Command executed
+## Command executed
 Python prison_break.py
 
-### Status: 
+## Status: 
 program runs
 
-### Bugs found:
+## Bugs found:
 ① The first input when asking for "Would you like to skip the prologue? (Don't skip if it's your first time) Y/N "does not have validation. Entered "i". Program continued anyway to: What is your name?: ?
 
-### Code review:
+## Code review:
 
 Comments are few in the code.
 Functions are named using a abbreviation which is explained but could be avoided.
@@ -437,7 +437,7 @@ Names are not adequate for some (ex. str )
 Code is organized in functions but many function can be reduced to a single function with an extra input (ex. dp(str, time) )
 Validation for user input is included in some parts of the game
 
-### Praise
+## Praise
 The story line is really creative and exciting. I am close to escape. The endings are really clever. Well done.
 
 Keep up the good work.
