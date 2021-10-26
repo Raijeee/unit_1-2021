@@ -419,10 +419,15 @@ Hi Reiji:
 Beta testing of your MVP:
 
 Command executed: python prison_break.py
-Status: program runs
+
+Status: 
+program runs
+
 Bugs found:
 ① The first input when asking for "Would you like to skip the prologue? (Don't skip if it's your first time) Y/N "does not have validation. Entered "i". Program continued anyway to: What is your name?: ?
+
 Code review:
+
 Comments are few in the code.
 Functions are named using a abbreviation which is explained but could be avoided. No header comments
 Variable names are mostly understandable, some are confusing (dec11) . Names are not adequate for some (ex. str )
