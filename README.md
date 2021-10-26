@@ -73,6 +73,7 @@ This shows the system diagram of the game. My system will be based on MAC OS and
 | Test driving Chapter 2 and reach ending 2                      | Integration Testing | 1. Run the program 2. Let the tester play the game from Chapter 2 (input 1,2,3).                                                                             | Stream lined game and prologue with no bugs and typos, overall game has to be interactive and engaging.                                                   |
 | Test Prison_break.py (Full game)                               | System Testing      | 1. Run the program on any Python terminal 2. Enter "Y" or "N" to skip or read prologue of game 3. Input 1,2 or 3 in the terminal to play and test the game.  | Program runs with no bugs and typos, everything makes sense and the game flows logically.                                                                 |
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Record of Tasks
 | Task NO | Planned Action                                                                                                                                                    | Planned Outcome                                                                                                                                                                  | Time estimate | Target completion date | Criterion |
